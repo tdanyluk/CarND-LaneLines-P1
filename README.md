@@ -1,6 +1,6 @@
-#**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road** 
 
-##Writeup
+## Writeup
 
 ---
 
@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 6 steps. 
 
@@ -68,7 +68,7 @@ The pipeline in images:
 ![Pipeline 6][image6]
 
 
-###2. Identify potential shortcomings with your current pipeline
+### 2. Identify potential shortcomings with your current pipeline
 
 
 One potential shortcoming would be what would happen when the shadow of a tree or other object would be so contrasty that it would show up in the Canny image. 
@@ -79,7 +79,7 @@ Another shortcoming could be that I don't support scenarios when the car turns t
 Also the algorithm cannot correctly handle it when a car is switching lanes.
 
 
-###3. Suggest possible improvements to your pipeline
+### 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to consider color (hue) in addition to intensity when calculating the Canny image.
 
